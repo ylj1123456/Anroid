@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.ylj.test">
+	<application>
+		<activity android:name="com.ylj.test.MainAndroidActivity"
+				android:icon="@drawable/icon"
+				android:launchMode="standard"
+				android:screenOrientation="portrait">
+				<intent-filter>
+					<category android:name="android.intent.category.LAUNCHER"/>
+					<category android:name="android.intent.category.DEFAULT"/>
+					<action   android:name="android.intent.action.Main"/>
+				</inten-filter>
+		</activity>
+	</application>
+<manifest>
